@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine, Maria?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide fade">
+            <h1>Dear <span id="name">Maria</span></h1>
+            <p>You're still the most beautiful girl on this planet, and yes, you literally make every girl look unattractive.</p>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide fade">
+            <p>I'm so proud of you, mera baccha. You're the bestest gift I ever have.</p>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide fade">
+            <p>I miss you so much, and don't worry, everything will be fine. I'm always here with you, and I'm not going anywhere.</p>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide fade">
+            <p>I love you so much.</p>
+            <h2>Will you be my Valentine?</h2>
+            <div class="buttons">
+                <button id="yesButton">Yes!</button>
+                <button id="noButton">No</button>
+            </div>
+            <p id="response"></p>
+        </div>
+    </div>
+
+    <!-- Mini-Game Section (Hidden by Default) -->
+    <div id="miniGame" class="hidden">
+        <h2>Catch the Hearts! ❤️</h2>
+        <p>Click on the hearts before they disappear!</p>
+        <div id="gameArea"></div>
+        <button id="backButton">Go Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
